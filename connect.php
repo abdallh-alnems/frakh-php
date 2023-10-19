@@ -3,8 +3,8 @@
 include "function.php";
 
 $dsn = HOST ; 
-$user = "root" ;
-$pass = "" ; 
+$user = USERHOST ;
+$pass = PASSHOST; 
 $option = array(
     PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES UTF8" // FOR Arabic
 );
